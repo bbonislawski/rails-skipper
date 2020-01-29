@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'rails/skipper'
+
+installer = Rails::Skipper::Main.new
+installer.say_hello(ARGV)
